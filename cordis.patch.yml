@@ -1,0 +1,7 @@
+# whale-relay bundle patch
+#
+# 一个宿主插件行：把 QQ 私聊**投递**进主窗口那条会话（不劫持会话 id），
+# 由同一个我处理；我回完，再用 whale_relay_send 送回 QQ。
+- insert:
+    - id: whale-relay
+      name: '@local/whale-relay'

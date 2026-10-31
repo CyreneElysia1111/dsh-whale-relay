@@ -1,0 +1,26 @@
+{
+  "name": "@local/whale-relay",
+  "version": "1.0.0",
+  "description": "把 QQ 私聊投进主窗口那条会话，由同一个我回；回完再送回 QQ。不劫持会话 id，只做投递。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "manifestVersion": 1
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT"
+}
