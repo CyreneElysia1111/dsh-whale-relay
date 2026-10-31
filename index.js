@@ -44,7 +44,7 @@ const DEFAULTS = {
   apiBase: 'http://127.0.0.1:3001',
   apiToken: '',
   // 主人自己的 QQ
-  ownerId: '',          // required: your own QQ number
+  ownerId: '3127931052',
   // 收到消息后推进哪条会话；留空则读 whale-window.json 的 sessionId
   sessionId: '',
   // 只收私聊
